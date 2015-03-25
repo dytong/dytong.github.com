@@ -5,13 +5,19 @@
 }
 
 header{
-	background-color: #cccccc;
+	background-color: #f0f0f0;
+	border-bottom: 5px, solid, #e03d4e;
 }
 
-#paragraph{
+.logo{
+	/*margin: 50px auto;*/
 	text-align: center;
 }
 
-#images{
+.paragraph{
+	text-align: center;
+}
+
+.images{
 	padding: 5px;
 }
