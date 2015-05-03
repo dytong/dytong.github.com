@@ -29,7 +29,7 @@ h3{
 	padding-top: 50px;
 }
 
-.link{
+.link:hover {
 	color: #e03d4e;
 }
 
@@ -38,6 +38,7 @@ h3{
 	width: 20%;
 	margin: 50px auto 0 auto;
 }
+
 
 .nav ul{
 	list-style-type: none;
@@ -121,8 +122,16 @@ h3{
 	width: 33%;
 	display: inline-block;
 	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
 	margin-bottom: 25%;
 }
+
+.desc ul li{
+	width: 100%;
+	margin: auto;
+}
+
 
 .desc ul li:nth-child(1){
 	margin-top: 15px;

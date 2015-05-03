@@ -72,3 +72,50 @@ h2 {
   width: 100%;
   margin: 200px;
 }
+
+.button{
+  width: 150px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  margin-right: 50px;
+  transition: all 200ms ease-in-out;
+}
+
+.one{
+  color: #14bdd1;
+  border: 1px solid #14bdd1;
+  border-radius: 50px;
+  background: transparent;
+}
+
+  .one:hover{
+    color: #ffffff;
+    background: #14bdd1;
+  }
+
+.two{
+  color: #ffffff;
+  background: #14bdd1;
+  border-radius: 50px;
+}
+  .two:hover{
+    background: #0a8b9a;
+    border-radius: 5px;
+  }
+
+.three{
+  color:#ffffff;
+  border-radius:5px;
+  background:#14bdd1;
+}
+
+  .three:hover{
+    background:#44cddd;
+    box-shadow: 0 5px 20px #aaaaaa;
+  }
