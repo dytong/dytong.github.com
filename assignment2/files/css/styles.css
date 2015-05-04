@@ -85,7 +85,6 @@ body{
 }
 
 .paragraph{
-	text-align: left;
 	font-size: 14px;
 	padding-top: 10%;
 	padding-bottom: 10%;
@@ -100,12 +99,12 @@ body{
 }
 
 .feature{
-	width: 50%;
-	float:right;
-	overflow: hidden;
+	margin:auto;
+	float:right;	
 }
 
 .mag{
+	overflow: hidden;
 	-webkit-transition: all 0.4s ease;
   	-moz-transition: all 0.4s ease;
   	-o-transition: all 0.4s ease;
